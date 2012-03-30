@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AndroidDashClientActivity!</string>
+    <string name="app_name">AndroidDashClient</string>
+    <string name="main_screen">AndroidDashClient</string>
+    <string name="splash_screen">AndroidDashClient</string>
+    <string name="bbg">icon</string>
+    <string name="play">Play</string>
+    <string name="play_loop">Play In Loop</string>
+    <string name="delete">Delete</string>
+    <string name="modify">Modify</string>
+    <string name="viewinfo">ViewInfo</string>
+    <string name="new_link">Add Link</string>
+    <string name="clean_cache">Clean Server Cache</string>
+    <string name="serverNameLabel">Contact URI</string>
+    <string name="linkDescription">Description</string>
+    <string name="formatAccountLabel">Source format</string>
+    <string name="mediaLabel">Media source</string>
+    <string name="save">Save</string>
+    <string name="local_video">local_video</string>
+    <string name="stream_video">stream_video</string>
+    <string name="loading_video">Loading video</string>
+
+    <string-array name="mediaPlace">
+        <item>Local</item>
+        <item>Remote</item>
+    </string-array>
+    <string-array name="sourceFormat">
+        <item>mp4</item>
+        <item>hls</item>
+        <item>dash</item>
+    </string-array>
+
+</resources>

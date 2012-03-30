@@ -1,0 +1,79 @@
+<results count="8">
+	<result>
+		<id>1</id>
+		<fileurl>/mnt/sdcard/Park_PSP.mp4</fileurl>
+		<type>MP4</type>
+		<media>Local</media>
+		<description>MP4 file on sd card</description>
+	</result>
+	<result>
+		<id>2</id>
+		<fileurl>httpppps://video.qa.knowledgeblue.com/Sales.mp4</fileurl>
+		<type>MP4</type>
+		<media>Remote</media>
+		<description>Progressive streaming test</description>
+	</result>
+	<result>
+		<id>3</id>
+		<fileurl>httplive://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8</fileurl>
+		<type>M3U8</type>
+		<media>Remote</media>
+		<description>M3U8 test from devimage web site BugsBunny</description>
+	</result>
+	<result>
+		<id>4</id>
+		<fileurl>http://10.0.2.2/Sales.mp4</fileurl>
+		<type>DASH</type>
+		<media>Remote</media>
+		<description>Dummy Test</description>
+	</result>
+	<result>
+		<id>5</id>
+		<fileurl>http://192.168.1.1/Sales.mp4</fileurl>
+		<type>MP4</type>
+		<media>Remote</media>
+		<description>Dummy Test</description>
+	</result>
+	<result>
+		<id>6</id>
+		<fileurl>httplive://192.168.1.1/hls/sl.m3u8</fileurl>
+		<type>M3U8</type>
+		<media>Remote</media>
+		<description>Dummy Test</description>
+	</result>
+	<result>
+		<id>8</id>
+		<fileurl>httpdash://192.168.1.1/hls/sl.m3u8</fileurl>
+		<type>M3U8</type>
+		<media>Remote</media>
+		<description>Dummy Test</description>
+	</result>
+	<result>
+		<id>9</id>
+		<fileurl>http://192.168.1.1/myvideo.html</fileurl>
+		<type>DASH</type>
+		<media>Html</media>
+		<description>Dummy Test</description>
+	</result>
+	<result>
+		<id>10</id>
+		<fileurl>httplive://192.168.1.1/ED/sl.m3u8</fileurl>
+		<type>M3U8</type>
+		<media>Remote</media>
+		<description>Elephant Dreams httplive local server (HD)</description>
+	</result>
+	<result>
+		<id>11</id>
+		<fileurl>httpdash://192.168.1.1/ED/sl.m3u8</fileurl>
+		<type>M3U8</type>
+		<media>Remote</media>
+		<description>Elephant Dream httpdash+m3u8 local server (HD)</description>
+	</result>
+	<result>
+		<id>12</id>
+		<fileurl>httpdash://192.168.1.1/ED/sl.mpd</fileurl>
+		<type>DASH</type>
+		<media>Remote</media>
+		<description>Elephant Dream httpdash+mpd local server (HD)</description>
+	</result>
+</results>

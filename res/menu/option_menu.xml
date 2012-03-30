@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/new_link"
+    	android:icon="@drawable/icon_more"
+        android:title="@string/new_link" />
+	<item android:id="@+id/clean_cache"
+    	android:icon="@drawable/icon_delete"
+        android:title="@string/clean_cache" />
+</menu>

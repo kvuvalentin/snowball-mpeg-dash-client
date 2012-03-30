@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TableRow >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/serverNameLabel"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow >
+
+            <EditText
+                android:id="@+id/linkNameEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/linkDescription"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow >
+
+            <EditText
+                android:id="@+id/linkDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/formatAccountLabel"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow >
+
+            <Spinner
+                android:id="@+id/selectFormat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawSelectorOnTop="false"
+                android:entries="@array/sourceFormat"
+                android:prompt="@string/formatAccountLabel" />
+        </TableRow>
+
+        <TableRow >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mediaLabel"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow >
+
+            <Spinner
+                android:id="@+id/selectMedia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawSelectorOnTop="false"
+                android:entries="@array/mediaPlace"
+                android:prompt="@string/mediaLabel" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/contactSaveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:text="@string/save" />
+
+</RelativeLayout>
